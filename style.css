@@ -1,0 +1,40 @@
+/* Simple CSS reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li,
+a {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(189, 189, 189);
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: rgb(189, 189, 189);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20%;
+  background-color: #1f2937;
+}
+
+.nav__links {
+  list-style: none;
+  display: inline;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0 30px;
+}
