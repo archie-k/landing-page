@@ -82,3 +82,11 @@ img {
 :hover .hero-btn {
   cursor: pointer;
 }
+
+.icon-img {
+  display: block;
+  height: 100px;
+  width: 100px;
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+}
