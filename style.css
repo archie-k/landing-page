@@ -16,9 +16,9 @@ a {
 
 .logo {
   font-family: "Roboto", sans-serif;
-  font-size: 1.45rem;
+  font-size: 24px;
   font-weight: 700;
-  color: rgb(189, 189, 189);
+  color: #f9faf8;
 }
 
 header {
@@ -37,4 +37,34 @@ header {
 .nav__links li {
   display: inline-block;
   padding: 0 30px;
+}
+
+img {
+  height: 350px;
+}
+
+.hero-section {
+  padding: 5% 20%;
+  display: flex;
+  background-color: #1f2937;
+}
+
+.text-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin-right: 80px;
+}
+
+.text-hero h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.text-hero p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #e5e7eb;
 }
