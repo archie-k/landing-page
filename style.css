@@ -40,7 +40,7 @@ header {
 }
 
 img {
-  height: 350px;
+  height: 300px;
 }
 
 .hero-section {
@@ -67,4 +67,18 @@ img {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero-btn {
+  width: max-content;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3882f6;
+  font-family: "Roboto", sans-serif;
+  color: #e5e7eb;
+}
+
+:hover .hero-btn {
+  cursor: pointer;
 }
