@@ -160,3 +160,11 @@ figcaption {
   font-family: "Roboto", sans-serif;
   color: #e5e7eb;
 }
+
+.cta-btn {
+  padding: 8px 20px;
+  color: #e5e7eb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: transparent;
+}
