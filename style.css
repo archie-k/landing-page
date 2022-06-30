@@ -140,3 +140,23 @@ figcaption {
   text-align: right;
   margin-top: 10px;
 }
+
+.cta-container {
+  height: 280px;
+  padding: 50px 20%;
+}
+
+.cta-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3882f6;
+  height: 140px;
+  border-radius: 10px;
+}
+
+.cta-header,
+.cta-text {
+  font-family: "Roboto", sans-serif;
+  color: #e5e7eb;
+}
